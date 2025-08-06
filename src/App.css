@@ -1,0 +1,81 @@
+.main{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding: 10px;
+  gap: 15px;
+}
+#romi{
+  height: 70%;
+}
+span{
+  background: linear-gradient(to right,rgb(34,221,231),rgb(237,4,125));
+  color: transparent;
+  font-size: 2vmax;
+  background-clip: text;
+}
+.listen{
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  gap: 6px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: rgb(79, 224, 234);
+  box-shadow: 2px 2px 30px rgb(79, 224, 234);
+  cursor: pointer;
+}
+#speak{
+  width: 80px;
+}
+p{
+font-size: 1.5vmax;
+color: white;
+text-align: center;
+padding: 0px 40px;
+}
+.response{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+#aigif{
+  width: 50vh;
+  height: 80px;
+}
+.close-btn {
+  position: fixed;
+  padding: 0px 3px;
+  left: 60%;
+  bottom: 18%;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .close-btn {
+    top: auto;
+    right: auto;
+    bottom: 22%;
+    left: 65%;
+    transform: translateX(15%);
+    position: fixed;
+  }
+}
