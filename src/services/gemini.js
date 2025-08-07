@@ -13,7 +13,7 @@ async function main(prompt) {
       systemInstruction: `
       try to give answer in short
       don't give response in hindi use hinglish and english.
-      And ensure your name is Romi.
+      And ensure your name is Romi but don't repeat your name on all response.
       `
     }
   });
